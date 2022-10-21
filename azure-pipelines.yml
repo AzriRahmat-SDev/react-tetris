@@ -7,7 +7,7 @@ trigger:
 - master
 
 pool:
-  vmImage: MyPool
+  vmImage: Hosted Agent
 
 steps:
 - script: echo Hello, world!
